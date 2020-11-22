@@ -1,3 +1,41 @@
 body {
   background: #102a54;
 }
+
+.ground {
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 40px;
+  animation: fadeIn 6.0s ease 0.1s 1 none ;
+}
+
+.circle-head {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  border-radius: 50%;
+  animation: fadeIn 9.0s ease 0.1s 1 none ;
+}
+
+.circle-body {
+  background: #fff;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 82%;
+  left: 21%;
+  border-radius: 50%;
+  animation: fadeIn 9.0s ease 0.1s 1 none ;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  
+  100% {opacity: 1;}
+}

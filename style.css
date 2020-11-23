@@ -9,7 +9,7 @@ body {
   top: 100%;
   left: 0;
   padding: 40px;
-  animation: fadeIn 6.0s ease 0.1s 1 none ;
+  animation: fadeIn 8.0s ease 0.1s 1 none ;
 }
 
 .circle-head {
@@ -20,7 +20,6 @@ body {
   top: 90%;
   left: 20%;
   border-radius: 50%;
-  animation: fadeIn 9.0s ease 0.1s 1 none ;
 }
 
 .circle-body {
@@ -31,7 +30,10 @@ body {
   top: 82%;
   left: 21%;
   border-radius: 50%;
-  animation: fadeIn 9.0s ease 0.1s 1 none ;
+}
+
+.snow-man {
+  animation: fadeIn 12.0s ease 0.1s 1 none ;
 }
 
 @keyframes fadeIn {
